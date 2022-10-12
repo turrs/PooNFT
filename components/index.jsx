@@ -8,6 +8,11 @@ import Collection from "./Collection";
 import Activity from "./Activity";
 import HeadCollectionList from "./HeadCollectionList";
 import ListItems from "./ListItems";
+import ListCollection from "./ListCollection";
+import Footer from "./Footer";
+import ConnectToWallet from "./ConnectToWallet";
+import MyDashboard from "./MyDashboard";
+import CardItemsNft from "./CardItemsNft";
 export {
   Headers,
   Sidebar,
@@ -19,4 +24,9 @@ export {
   Activity,
   HeadCollectionList,
   ListItems,
+  ListCollection,
+  Footer,
+  ConnectToWallet,
+  MyDashboard,
+  CardItemsNft,
 };

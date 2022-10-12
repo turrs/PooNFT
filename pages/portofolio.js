@@ -1,3 +1,4 @@
+import React from "react";
 import Head from "next/head";
 import Image from "next/image";
 import { useContext, useEffect, useState } from "react";
@@ -6,13 +7,13 @@ import {
   Drops,
   Footer,
   Headers,
+  MyDashboard,
   SearchBar,
   Sidebar,
 } from "../components";
 import { AppContext } from "../context";
 import styles from "../styles/Home.module.css";
-
-export default function Home() {
+function portofolio() {
   return (
     <div className="">
       <Head>
@@ -21,13 +22,13 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className="flex flex-col  bg-black h-[100vh]">
-        <Headers />
+        <Headers connect />
         <div className="bg-black flex ">
           <div className="md:w-3/12 w-2/12  p-3 pb-0">
             <Sidebar />
           </div>
           <div className="md:w-6/12 grow p-3">
-            <Content />
+            <MyDashboard />
           </div>
           <div className="w-3/12 p-3 hidden md:block">
             <Drops />
@@ -40,3 +41,5 @@ export default function Home() {
     </div>
   );
 }
+
+export default portofolio;

@@ -5,7 +5,7 @@ const HeadList = () => {
     <div>
       <div className="flex border-gray border-solid border-2 rounded-[10px] p-2 ">
         <div className="w-4/12 flex justify-center items-center">
-          <p className="text-gray font-['Poppins']">ID</p>
+          <p className="text-gray font-['Poppins']">Image</p>
         </div>
         <div className="w-4/12 flex justify-center items-center">
           <p className="text-gray font-['Poppins']">Price</p>
