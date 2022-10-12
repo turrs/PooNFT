@@ -4,7 +4,8 @@ axios.defaults.headers = {
 };
 
 const MagicEdenAxios = axios.create({
-  baseURL: "https://api-mainnet.magiceden.dev/v2",
+  baseURL:
+    "https://corsanywhere.herokuapp.com/https://api-mainnet.magiceden.dev/v2",
 });
 
 const HowRareAxios = axios.create({
