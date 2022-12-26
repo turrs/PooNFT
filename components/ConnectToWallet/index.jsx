@@ -22,7 +22,6 @@ const ConnectToWallet = () => {
   const { setAdress } = useContext(AppContext);
   const fetchWallet = async () => {
     const adress = wallet.publicKey.toBase58();
-    console.log("ini public key", adress);
     await setAdress(adress);
   };
 
